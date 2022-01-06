@@ -1,6 +1,17 @@
 .mask{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   background-color: blue;
   -webkit-mask-image: url('../img/snow.svg');
+  -webkit-mask-size: 500px 500px;
+  position: relative;
+  top: 150px;
+  left: 35%;
+}
+.screen{
+  width: 100vh;
+  height: 100vh;
+}
+.screen:hover .mask {
+    background-color: cyan;
 }
