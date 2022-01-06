@@ -1,7 +1,6 @@
-.masked {
-  width: 100px;
-  height: 100px;
-  background-color: #8cffa0;
+.mask{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
   -webkit-mask-image: url('../img/snow.svg');
-  mask-image: url(/img/star.svg);
 }
